@@ -1,0 +1,212 @@
+
+
+* {margin: 0; padding: 0; }
+
+a {text-decoration: none;}
+input {margin: 0;}
+.siteWrapper {width: 1000px; margin: 0 auto;/*border: 1px solid #cbc;*/background: #E0EEEF;box-shadow: 0 0 2px #000;}
+.fLeft {float: left;}
+.fRight {float: right;}
+.cLeft {clear: left;}
+.cRight {clear: right;}
+.cBoth {clear: both;} 
+/*
+				|===========================================================|
+										siteHeader
+				|===========================================================|
+*/
+body {background: #fff;}
+header {background: #5AB2B0;height: 160px;}
+#logo {width: 180px;padding: 5px 0 0 10px;}
+#head {color: #5AB2B0;text-shadow:1px 1px 1px #085B45;margin: 20px 0 0 30px;width: 560px;}
+#MainMenu {}
+#MainMenu ul{margin: 50px 0 0 70px;}
+#MainMenu ul li{list-style: none;float: left;width: 100px;text-align: center;}
+#MainMenu ul li a{text-decoration: none;font-size: 22px;padding: 0 10px;color: #5AB2B0;font-weight: bold;}
+#MainMenu ul li a:hover {font-size: 22px;padding: 0 10px;color: #085B45;}
+
+
+#search {height: 25px;width: 180px;color: #fff;margin:20px 0 20px 30px;float: right;}
+#search form#searchBox {color: #fff;width: 150px; }
+#search form input {background:#5AB2B0;padding:6px 7px;border: 2px solid #085B45;color: #fff; }
+/*#search form#searchBox input#submit {float: right;width: 30px;}*/
+#login {border: 2px solid #085B45;margin: 40px 30px 0 0px;padding-top: 3px;   width: 150px;height: 23px;background: #5AB2B0;text-align: center;}
+#login  a{padding:5px 20px;text-align: center;color: #fff;}
+#login:hover {text-align: center;color: #fff;background: #507E95;}
+/*#login {height: 40px; width: 180px;background: #217565;}*/
+/*#login {height: 50px;width: 150px;background: #217565;}*/
+/*
+				|===========================================================|
+										Content
+				|===========================================================|
+*/
+#content {width: 700px;padding-left: 20px;}
+#contentHead {color: #13A8BE;font-size: 32px;font-variant: small-caps;padding: 20px;text-align: center;text-shadow:1px 1px 1px #085B45;}
+#content p {color: #217565;padding: 10px;position: relative  !important;margin-left: 30px;font-size: 14px;}
+#contentLeft {width: 350px;}
+#contentRight {width: 320px;}
+#sitebar {width: 250px;background: #5AB2B0;height: auto;box-shadow:0 0 2px #000;}
+
+#sitebar h3{margin: 10px ;font-size: 28px;text-shadow:1px 1px 1px #326791;}
+ul.sidemenu {
+	margin: 0 0 0 30px;
+	padding:0;		
+	font-family: 'Sans-serif', Sans-serif, Sans-serif;		
+	border-top: 1px solid #bbb;
+}
+ul.sidemenu li {
+	padding: 7px 0; 
+	border-bottom: 1px dotted #bbb; 
+	list-style-image:url('../images/bullet.png');
+	margin-left: 15px;
+}
+ul.sidemenu li a {color: #111;padding-left: 5px;text-decoration: none;}
+ul.sidemenu li a:hover {color: #000;padding-left: 5px;font-weight: bold;}
+
+
+/*------------------------------ bannerArea ------------------------------*/
+#bannerArea {
+	height: 300px;
+	position: relative;
+	z-index: 10;
+}
+img #id {
+	height: 318px;
+	width: 915px;
+}
+#left_holder {
+	height: 315px;
+	width: 915px;
+	position: absolute;
+	left: 15px;
+	top: 0;
+}
+#left_holder img:hover {
+	
+}
+ #right_holder {
+	height: 318px;
+	width: 915px;
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+.left {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 60%;
+	left: 0;
+}
+.right {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 60%;
+	right: 0;
+}
+/*===========================================================================*/
+
+footer {background: #217565;height: 150px;box-shadow: 0 -5px 5px #000;margin-top: 20px;}
+#footerContent1,#footerContent2,#footerContent3{width: 200px; /*border: 1px solid #000;*/}
+#footerContent4,#footerContent5,#footerContent6{width: 200px;  }
+#footerContent1 h1,#footerContent2 h1, #footerContent3 h1, #footerContent4 h1, #footerContent5 h1, #footerContent6 h1 { padding: 20px 0 7px 0; font-size: 16px; color: #ddcbe7;}
+#footerContent6 {text-align: right;}
+#footerContent1 ul li,#footerContent2 ul li,#footerContent3 ul li,#footerContent4 ul li,#footerContent5 ul li,#footerContent6 ul li { font-size: 14px; list-style: none;}
+#footerContent1 ul li a, #footerContent2 ul li a, #footerContent3 ul li a, #footerContent4 ul li a, #footerContent5 ul li a, #footerContent6 ul li a {color: #fff2fc;padding: 5px;}
+#footerContent1 ul li a:hover, #footerContent2 ul li a:hover, #footerContent3 ul li a:hover, #footerContent4 ul li a:hover, #footerContent5 ul li a:hover,#footerContent6 ul li a:hover {color: #fbf7fa;}
+#footerContent5 ul li {float: left;}
+
+
+#footerBottom {height: 18px;padding: 8px 0;text-align: center;color: #fff;background: #085B45;font-size: 12px;}
+
+/*====================Service======================*/
+
+#content h2{padding: 10px 0;color: #085B45;}
+#content ul {margin-left: 30px;}
+#content ul li{margin-left: 20px;color: #868686;padding: 5px 0;}
+#content ol li {margin-left: 30px;color: #868686;padding: 5px 0;}
+
+
+
+#content form{margin: 20px 0 10px 20px;}
+#content form input {margin: 10px 5px;width: 200px;background: silver;}
+
+
+
+/*	|===========================================================|
+									CSS For	All Form Design
+				|===========================================================|*/
+
+ .input {
+	border:0; 
+	padding:0 5px ; 
+	font-size:1.1em; 
+	font-family:"Sans-serif";
+	color:#217565; 
+	border:solid 1px #085B45; 
+	margin:10px 20px; 
+	background: #E0EEEF !important;
+	width:250px;
+	-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+	box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 4px;
+
+	}
+input:focus { 
+	    outline: none !important;
+	    border-color: #719ECE;
+	    box-shadow: 0 5px 10px #745E6C;
+	}
+input[type="submit"]{
+	 border: 0;
+			  background: #085B45 !important;
+			  border-radius: 4px;
+			  box-shadow: 0 5px 0 #000;
+			  color: #fff;
+			  cursor: pointer;
+			  font: inherit;
+			  margin: 0;
+			  outline: 0;
+			  padding: 5px 20px;
+			  transition: all .1s linear;
+			  margin-left: 20px;
+}
+input[type="submit"]:active {
+			  box-shadow: 0 2px 0 #217565;
+			  transform: translateY(3px);
+			}
+
+
+
+                /*  |======================= Right Content  ===============================|  */ 
+
+
+#rightContent {width: 722px; margin: 5px 5px 0 8px; }
+.latest {width: 100%; height: 26px; background: url('../images/bg_latest.jpg') repeat-x left top;}
+.barHeader {width: 100%; height: 28px; background:#5AB2B0 url('../images/bg_latest.jpg') repeat-x left top; margin: 30px 0 0 10px;box-shadow:  1px 1px 4px #745E6C;}
+.barHeader h1 {color: #281524; font-size: 14px; float: left; margin: 2px 0 0 8px;}
+.barHeader h2 {color: #ba1e97; font-size: 11px; float: right; margin: 0 8px 0 0;}
+.tiShirts {width: 220px; height:305px; /*border: 1px solid #000;*/ float: left; margin: 15px 6px 0 6px;box-shadow:1px 1px 2px #B3A0A9;  }
+.tiShirtHeading {width: 220px; height: 31px; background:#217565 url('../images/bg_contentHeader.jpg') repeat-x left top;}
+.tiShirtHeading h1 {font-size: 14px; font-family: Sans-serif; font-weight: bold; color: #ddcbe7; text-align: center; padding-top: 6px;}
+
+.tiShirtImg img {margin-left: 19px;box-shadow:  2px 2px 2px #5E4958;margin-top: 17px;}
+
+#patient_to_doctor { width: 220px; height: 25px;margin-left: 10px;position: relative;}
+#patient_to_doctor p{margin: 0;padding: 0;color: #217565;margin-left: 25px;}
+#patient_to_doctor a button {position: absolute;bottom: -23px;right: 13px;}
+
+					/*  |======================= End of Right Content  ========================|  */
+
+
+#dimg {padding: 20px 100px 0 0;}
+#pContent {padding: 30px 0 0 30px; }
+
+
+form#contact_form {background: #5AB2B0;padding: 30px;margin-left: 150px;box-shadow: 2px 2px 2px #000;}
+
+#usreInfo {background: #5AB2B0;padding: 30px;margin-left: 150px;margin-top: 20px;box-shadow: 2px 2px 2px #000;}
